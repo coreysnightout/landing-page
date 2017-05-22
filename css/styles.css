@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.sad-image {
+  position: relative;
+  width: 100%;
+  /*overflow: hidden: auto;;*/
+}
+
+.landing-page {
+  max-height: 600px;
+  overflow:hidden;
+}
+
+#landing-page-text {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-right: -50%;
+  transform:translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: -60px;
+}
+
+h1 {
+  font-size: 135px;
+  border-top: 2px solid #FFF;
+}
